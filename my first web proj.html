@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My First Web Page</title>
+		<meta name = "viewport" content="Page Description Here"/>
+	<img SRC="great.png" ALT="some text" WIDTH=100 HEIGHT=100>
+	<style type="text/css">
+		Header{
+			background: black;
+		}
+		.nav{
+			overflow: hidden;
+			position: fixed;
+			width: 150%;
+			background: white;
+			font: arial;
+		}
+		.nav a {
+  			float: right;
+  			display: block;
+  			color: white;
+  			text-align: center;
+  			padding: 14px 16px;
+  			text-decoration: none;
+  			font-size: 17px;
+		}
+		.nav a:hover {
+  			background-color: orange;
+  			color:	black;
+  		}
+  		
+  		.nav b {
+  				color: black;
+  				float: left;
+  				width: 100px
+  		}
+  		.dropbtn {
+  			float: right;
+  			background-color: black;
+  			color: white;
+  			padding: 16px;
+  			font-size: 16px;
+  			border: none;
+		}
+  		.dropdown {
+  			position: relative;
+  			display: inline-block;
+		}
+
+		.dropdown-content {
+  			display: none;
+  			position: absolute;
+  			background-color: black;
+  			min-width: 160px;
+  			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  			z-index: 1;
+		}
+		.dropdown-content a {
+  		color: white;
+  		padding: 12px 16px;
+  		text-decoration: none;
+  		display: block;
+		}
+		.dropdown-content a:hover {background-color: white;}
+
+		.dropdown:hover .dropdown-content {display: block;}
+
+		.dropdown:hover .dropbtn {background-color: black;}
+		Body{
+			background: black;
+		}
+		.Footer{
+			position: fixed;
+			bottom: 0;
+			width: 120%;
+			text-align: left;
+			text-decoration-color: black;
+			background: grey;
+		}
+	</style>
+	</head>
+	<body>
+		<div href="Header" id ="myheader">
+		<div class="nav" id="myTopnav">
+		<a href="#about">About</a>
+		<a href="#contact">Contact Us</a>
+		<div class = "dropdown">
+			<button class= "dropbtn">Courses<i class="down">
+			</i></button>
+			<div class="dropdown-content">
+				<a href="#C++">C++</a>
+				<a href="#Java">Java</a>
+				<a href ="#Python">Python</a>
+			</div>
+  		<a href="#home" class="active">Home</a>
+  		</a>
+		</div>
+		<div class="Footer">
+			<p>@Copyright XYZ.com</p>
+		</div>
+		<br>
+		<p>This is the body of HTML</p>
+	</body>
+	</html>
