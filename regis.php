@@ -41,7 +41,7 @@
 	<!--<div class="wrapper">
 		<div class="sidebar">
 		<a href="#"><i class="fa fa-home"></i>Home</a><br>
-		<a href="#"><i class="fa fa-phone"></i>Contact Us</a><br>
+		<a href="#"><i class="fa fa-phone"></i>Cntact Us</a><br>
 		<a href="#"><i class="fa fa-user"></i>Courses</a><br>
 		<a href="#"><i class="fa fa-users"></i>About</a>			
 		</div>
